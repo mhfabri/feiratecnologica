@@ -1,0 +1,38 @@
+body{
+    color: white;
+    background-color: #050614;
+}
+
+.navbar{
+    background-image: linear-gradient(to bottom, #5100ff, #050614);
+}
+
+
+.nav-link{
+    color: white;
+    text-align: right;
+}
+
+.modalcolor{
+    background-color: #5100ff;
+    color: white;
+}
+
+.modalcolor:hover{
+    background-color: #300888;
+    color: gray;
+}
+
+.modal-content{
+    background-image: linear-gradient(to bottom, #5100ff, #050614);
+    border: 1px solid #ff00ed;
+    color: white;
+    overflow-y: auto;
+    max-height: 85vh;
+    
+}
+
+footer{
+    padding-top: 80px;
+    color: rgba(255, 255, 255, 0.2);
+}
