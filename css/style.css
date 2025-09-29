@@ -31,6 +31,10 @@ body{
     max-height: 85vh;
     
 }
+.imgcapa{
+    max-width: 50%;
+    height: auto;
+}
 
 footer{
     padding-top: 80px;
