@@ -29,11 +29,32 @@ body{
     color: white;
     overflow-y: auto;
     max-height: 85vh;
-    
+    margin-top: 25%;
 }
 .imgcapa{
     max-width: 50%;
     height: auto;
+}
+
+h1{
+    color: #693bca;
+}
+
+h2{
+    color: #ac8eee;
+}
+
+hr{
+    color: #ff00ed;
+}
+
+.modal-title{
+    color: white;
+    text-align: center;
+}
+
+.banner{
+    width: 75%;
 }
 
 footer{
