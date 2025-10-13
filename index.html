@@ -77,7 +77,119 @@
             </div>
         </div>
 
-        
+
+        <div class="container py-5">
+            <h2 class="text-center mb-4 fw-bold">Carrossel de Cards com Modal</h2>
+
+            <div id="carouselCards" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+
+                            <div class="col-md-4">
+                                <div class="card shadow-sm">
+                                    <img src="https://picsum.photos/400/200?random=1" class="card-img-top"
+                                        alt="Imagem 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card 1</h5>
+                                        <p class="card-text">Descrição breve do primeiro card.</p>
+                                        <button class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#modal1">Saiba mais</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card shadow-sm">
+                                    <img src="https://picsum.photos/400/200?random=2" class="card-img-top"
+                                        alt="Imagem 2">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card 2</h5>
+                                        <p class="card-text">Conteúdo do segundo card.</p>
+                                        <button class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#modal2">Saiba mais</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card shadow-sm">
+                                    <img src="https://picsum.photos/400/200?random=3" class="card-img-top"
+                                        alt="Imagem 3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card 3</h5>
+                                        <p class="card-text">Descrição do terceiro card.</p>
+                                        <button class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#modal3">Saiba mais</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+
+                            <div class="col-md-4">
+                                <div class="card shadow-sm">
+                                    <img src="https://picsum.photos/400/200?random=4" class="card-img-top"
+                                        alt="Imagem 4">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card 4</h5>
+                                        <p class="card-text">Texto adicional sobre o card 4.</p>
+                                        <button class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#modal4">Saiba mais</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card shadow-sm">
+                                    <img src="https://picsum.photos/400/200?random=5" class="card-img-top"
+                                        alt="Imagem 5">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card 5</h5>
+                                        <p class="card-text">Mais informações do quinto card.</p>
+                                        <button class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#modal5">Saiba mais</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card shadow-sm">
+                                    <img src="https://picsum.photos/400/200?random=6" class="card-img-top"
+                                        alt="Imagem 6">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card 6</h5>
+                                        <p class="card-text">Informações adicionais sobre o card 6.</p>
+                                        <button class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#modal6">Saiba mais</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Controles -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCards"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCards"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
 
     </main>
 
@@ -112,6 +224,102 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn modalcolor" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- modal corrossel -->
+        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Mais sobre "Filhos do Quarto"</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>depoimento 1</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn modalcolor" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Mais sobre "Filhos do Quarto"</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>depoimento 1</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn modalcolor" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Mais sobre "Filhos do Quarto"</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>depoimento 1</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn modalcolor" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal4Label">Mais sobre o Card 4</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Informações detalhadas do Card 4. Ideal para descrições mais longas.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal5Label">Mais sobre o Card 5</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Informações extras sobre o Card 5. Use este espaço para detalhes complementares.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal6Label">Mais sobre o Card 6</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Informações detalhadas do Card 6. Aqui você pode inserir imagens, listas ou vídeos.
                     </div>
                 </div>
             </div>

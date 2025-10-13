@@ -110,3 +110,11 @@ footer{
     color: #5100ff;
 }
 
+
+.carousel-control-next{
+    right: 0;
+}
+
+.carousel-control-prev{
+    left: 0;
+}
