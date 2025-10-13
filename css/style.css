@@ -1,10 +1,19 @@
 body{
     color: white;
     background-color: #050614;
+    scroll-behavior: smooth;
+}
+
+#sobre{
+    padding-top: 75px;
 }
 
 .navbar{
     background-image: linear-gradient(to bottom, #5100ff, #050614);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 
@@ -29,7 +38,13 @@ body{
     color: white;
     overflow-y: auto;
     max-height: 85vh;
-    margin-top: 25%;
+    
+}
+
+.container-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .imgcapa{
     max-width: 50%;
@@ -67,3 +82,31 @@ footer{
 .corfont{
     color: white;
 }
+
+.card{
+    width: 18rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    transition: 0.8s ease-in-out
+}
+
+.card-body{
+    transition: color 0.8s ease-in-out
+}
+
+.card:hover, .card-body:hover{
+    transition: 0.8s ease-in-out;
+    background-color: #300888;
+    border-color: #ff00ed;
+    color: #ff00ed;
+}
+
+
+.cardt:hover, .card-bodyt:hover{
+    transition: 0.8s ease-in-out;
+    background-color: #ff00ed;
+    border-color: #5100ff;
+    color: #5100ff;
+}
+
