@@ -118,3 +118,13 @@ footer{
 .carousel-control-prev{
     left: 0;
 }
+
+.hidden{
+    transition: 0.8s ease-in-out;
+    color: #693bca;
+}
+
+.hidden:hover{
+    transition: 0.8s ease-in-out;
+    color: #ff00ed;
+}
