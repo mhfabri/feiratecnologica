@@ -128,3 +128,7 @@ footer{
     transition: 0.8s ease-in-out;
     color: #ff00ed;
 }
+
+#creditos{
+    margin-top: 100px;
+}

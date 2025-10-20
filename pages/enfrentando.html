@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#livro">Livro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#consequencias">Consequências</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Saiba
+                                Mais</a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="enfrentando.html#comoenfrentar">Como
+                                        Enfrentar</a></li>
+                                <li><a class="dropdown-item" href="enfrentando.html#depoimentos">Depoimentos</a>
+                                </li>
+                                <li><a class="dropdown-item" href="creditos.html">Créditos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container py-5">
+        <h2 class="text-center mb-4 fw-bold">Depoimentos</h2>
+
+        <div id="carouselCards" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+
+                        <div class="col-md-4">
+                            <div class="card shadow-sm">
+                                <img src="../img/card/Cauã.jpg" class="card-img-top"
+                                    alt="Imagem 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cauã Reymond</h5>
+                                    <p class="card-text">Cauã relata sobre o que passou durante sua carreira.</p>
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modal1">Saiba mais</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card shadow-sm">
+                                <img src="../img/card/vera.jpeg" class="card-img-top"
+                                    alt="Imagem 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Vera Fischer</h5>
+                                    <p class="card-text">Ao participar do programa “Conversa com Bial”, Vera Fischer revelou que foi vítima de assédio moral praticado por um diretor da Globo</p>
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modal2">Saiba mais</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card shadow-sm">
+                                <img src="../img/card/Carina.jpg" class="card-img-top"
+                                    alt="Imagem 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Pereira</h5>
+                                    <p class="card-text">Carina Pereira relata sobre o que passou durante seu trabalho na Globo</p>
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modal3">Saiba mais</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+
+                        <div class="col-md-4">
+                            <div class="card shadow-sm">
+                                <img src="https://picsum.photos/400/200?random=4" class="card-img-top"
+                                    alt="Imagem 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 4</h5>
+                                    <p class="card-text">Texto adicional sobre o card 4.</p>
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modal4">Saiba mais</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card shadow-sm">
+                                <img src="https://picsum.photos/400/200?random=5" class="card-img-top"
+                                    alt="Imagem 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 5</h5>
+                                    <p class="card-text">Mais informações do quinto card.</p>
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modal5">Saiba mais</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card shadow-sm">
+                                <img src="https://picsum.photos/400/200?random=6" class="card-img-top"
+                                    alt="Imagem 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 6</h5>
+                                    <p class="card-text">Informações adicionais sobre o card 6.</p>
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modal6">Saiba mais</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCards"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCards"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+
+<script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
