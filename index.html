@@ -28,7 +28,10 @@
                             <a class="nav-link" href="#livro">Livro</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#consequencias">Consequências</a>
+                            <a class="nav-link" href="#sobretema">Sobre o tema</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#oquee">Oque é</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Saiba
@@ -50,145 +53,227 @@
         <h1>Sobre o projeto</h1>
         <div class="container text-center my-5">
             <img class="banner" src="img/fotodnv.jpg" alt="">
-            <p>Neste site iremos trabalhar com as disciplinas de Língua Portuguesa e Interfaces Web que são mestradas respectivamente pelas professoras Amanda Chagas e Cíntia Pinho e temos o intuito de  alcançar pessoas que sofrem com o assédio moral e pessoas do mercado de trabalho para que elas saibam o que é assédio moral e possam identificar como lidar da forma correta. E para realizarmos este projeto usamos como base o livro "Filhos do Quarto", após a leitura identificamos o tema de Assédio Moral e decidimos retrata-lo em nosso projeto.</p>
+            <p>Neste site iremos trabalhar com as disciplinas de Língua Portuguesa e Interfaces Web que são mestradas
+                respectivamente pelas professoras Amanda Chagas e Cíntia Pinho e temos o intuito de alcançar pessoas que
+                sofrem com o assédio moral e pessoas do mercado de trabalho para que elas saibam o que é assédio moral e
+                possam identificar como lidar da forma correta. E para realizarmos este projeto usamos como base o livro
+                "Filhos do Quarto", após a leitura identificamos o tema de Assédio Moral e decidimos retrata-lo em nosso
+                projeto.</p>
 
         </div>
     </section>
     <hr>
     <main>
-        <h1 class="my-5" id="livro">"Filhos do Quarto"</h1>
-        <div class="container text-center my-5">
-            <div class="row">
-                <div class="col">
-                    <img class="imgcapa" src="img/capalivro.png" alt="capa do livro filhos do quarto">
-                </div>
-                <div class="col">
-                    <h2>Sobre o livro</h2>
-                    <p>Filhos do Quarto, de Elisabete Baptista, aborda temas como luto, bullying, assédio moral e
-                        resiliência, usando o “quarto” como metáfora para dores emocionais escondidas. A obra mostra que
-                        o isolamento pode ser um refúgio momentâneo, mas, quando prolongado, se torna prejudicial,
-                        incentivando o enfrentamento dos sofrimentos e a busca por acolhimento.</p>
-                    <button type="button" class="btn modalcolor" data-bs-toggle="modal" data-bs-target="#modalbook">
-                        Ler mais
-                    </button>
+        <section id="livro">
+
+            <h1 class="my-5">"Filhos do Quarto"</h1>
+            <div class="container text-center my-5">
+                <div class="row">
+                    <div class="col">
+                        <img class="imgcapa" src="img/capalivro.png" alt="capa do livro filhos do quarto">
+                    </div>
+                    <div class="col">
+                        <h2>Sobre o livro</h2>
+                        <p>Filhos do Quarto, de Elisabete Baptista, aborda temas como luto, bullying, assédio moral e
+                            resiliência, usando o “quarto” como metáfora para dores emocionais escondidas. A obra mostra
+                            que
+                            o isolamento pode ser um refúgio momentâneo, mas, quando prolongado, se torna prejudicial,
+                            incentivando o enfrentamento dos sofrimentos e a busca por acolhimento.</p>
+                        <button type="button" class="btn modalcolor" data-bs-toggle="modal" data-bs-target="#modalbook">
+                            Ler mais
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section id="sobretema">
 
 
-        <div class="container py-5">
-            <h2 class="text-center mb-4 fw-bold">Depoimentos</h2>
+            <div class="container my-5 text-center">
+                <h1>Porque este tema?</h1>
+                <div class="row row-card">
+                    <div class="col">
+                        <div class="col-animated">
 
-            <div id="carouselCards" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
+                            <h2 class="my-5 motivo">Motivo</h2>
 
-                    <!-- Slide 1 -->
-                    <div class="carousel-item active">
-                        <div class="row justify-content-center">
-
-                            <div class="col-md-4">
-                                <div class="card shadow-sm">
-                                    <img src="img/card/Cauã.jpg" class="card-img-top"
-                                        alt="Imagem 1">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Cauã Reymond</h5>
-                                        <p class="card-text">Cauã relata sobre o que passou durante sua carreira.</p>
-                                        <button class="btn btn-primary" data-bs-toggle="modal"
-                                            data-bs-target="#modal1">Saiba mais</button>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="card shadow-sm">
-                                    <img src="img/card/vera.jpeg" class="card-img-top"
-                                        alt="Imagem 2">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Vera Fischer</h5>
-                                        <p class="card-text">Ao participar do programa “Conversa com Bial”, Vera Fischer revelou que foi vítima de assédio moral praticado por um diretor da Globo</p>
-                                        <button class="btn btn-primary" data-bs-toggle="modal"
-                                            data-bs-target="#modal2">Saiba mais</button>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="card shadow-sm">
-                                    <img src="img/card/Carina.jpg" class="card-img-top"
-                                        alt="Imagem 3">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Carina Pereira</h5>
-                                        <p class="card-text">Carina Pereira relata sobre o que passou durante seu trabalho na Globo</p>
-                                        <button class="btn btn-primary" data-bs-toggle="modal"
-                                            data-bs-target="#modal3">Saiba mais</button>
-                                    </div>
-                                </div>
-                            </div>
-
+                            <p class="my-5">Optamos por este tema por ser algo que acontece constantemente no nosso
+                                cotidiano e por sempre estar-mos presenciando cenas voltada ao tema, seja em ambientes
+                                de
+                                trabalho, escolar e até mesmo familiar. <br>Queremos aumentar a consiencia publica sobre
+                                o
+                                assedio moral, combater algumas desinformações, mostrar que quem passa por isso nunca
+                                vai
+                                estar sozinho e que deve sempre buscar ajuda pisicologica e se afastar de tudo aquilo
+                                que te
+                                faz sentir reprimido ou atacado.</p>
                         </div>
                     </div>
 
-                    <!-- Slide 2 -->
-                    <div class="carousel-item">
-                        <div class="row justify-content-center">
+                    <div class="col">
+                        <div class="col-animated col-animatedr">
+                            <h2 class="my-5 intuito">Intuito</h2>
 
-                            <div class="col-md-4">
-                                <div class="card shadow-sm">
-                                    <img src="https://picsum.photos/400/200?random=4" class="card-img-top"
-                                        alt="Imagem 4">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card 4</h5>
-                                        <p class="card-text">Texto adicional sobre o card 4.</p>
-                                        <button class="btn btn-primary" data-bs-toggle="modal"
-                                            data-bs-target="#modal4">Saiba mais</button>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="card shadow-sm">
-                                    <img src="https://picsum.photos/400/200?random=5" class="card-img-top"
-                                        alt="Imagem 5">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card 5</h5>
-                                        <p class="card-text">Mais informações do quinto card.</p>
-                                        <button class="btn btn-primary" data-bs-toggle="modal"
-                                            data-bs-target="#modal5">Saiba mais</button>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="card shadow-sm">
-                                    <img src="https://picsum.photos/400/200?random=6" class="card-img-top"
-                                        alt="Imagem 6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card 6</h5>
-                                        <p class="card-text">Informações adicionais sobre o card 6.</p>
-                                        <button class="btn btn-primary" data-bs-toggle="modal"
-                                            data-bs-target="#modal6">Saiba mais</button>
-                                    </div>
-                                </div>
-                            </div>
-
+                            <p class="my-5"> O intuito do projeto é informar, educar e consientir sobre o tema, e assim
+                                mostrar suas consequencias, formas de enfrentar e expressar tudo quilo que passa,
+                                mostrar
+                                para quem faz o assédio que esta desestruturando não só uma pessoa, mas sim todos que
+                                estao
+                                a sua volta. <br>Ninguem merece ser oprimido ou sofrer por coisas do tipo. <br>Dito isto
+                                vamos abranger todos os afetados e prestar a solidariedade cabivel a nós e permitir que
+                                se
+                                sintam acolhidos e que possam se libertar do sentimentos de culpa que é causado por tudo
+                                oque passsam.</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="oquee">
+
+            <div class="container my-5">
+                <h1 class="my-5">Oque é assédio moral</h1>
+                <p>O assédio moral consiste em condutas abusivas, intencionais, repetidas ou prolongadas, exercidas por
+                    uma
+                    pessoa ou grupo sobre outra(s), em qualquer tipo de relação — familiar, social, comunitária,
+                    educacional
+                    ou institucional — que visam ou provocam humilhação, constrangimento, dano à dignidade ou
+                    integridade
+                    psíquica ou física da vítima. <a
+                        href="https://brasilescola.uol.com.br/sociologia/assedio-moral.htm?utm_source=chatgpt.com"
+                        class="fonte">¹</a><br> Não se trata apenas de um episódio pontual de agressão ou conflito, mas
+                    de
+                    um padrão ou sequência de atos abusivos que criam uma situação de vulnerabilidade ou sofrimento
+                    contínuo
+                    para a vítima. <a
+                        href="https://www.gov.br/mdr/pt-br/canais_atendimento/corregedoria/conheca-a-corregedoria/plano-de-prevencao-e-combate-ao-assedio/assedio-moral?utm_source=chatgpt.com"
+                        class="fonte">²</a> <br>Embora muitas definições sejam formuladas no contexto do trabalho, o
+                    conceito se aplica de modo ampliado a qualquer esfera onde haja relação de poder, autoridade ou
+                    dependência e onde ocorra a repetição de condutas que ofendam a dignidade. <a
+                        href="https://brasilescola.uol.com.br/sociologia/assedio-moral.htm?utm_source=chatgpt.com"
+                        class="fonte">³</a><br><br>Existem de forma geral 4 tipos de assédio moral, sendo eles: Assédio
+                    Vertical Descendente, Assédio Moral Organizacional, Assédio Moral Horizontal e Assédio Moral
+                    Vertical
+                    Ascendente.</p>
+                <h1 class="my-5">Oque é cada um deles</h1>
+                <div class="row">
+                    <div class="col">
+
+                        <h2 class="my-5">Assédio Vertical Descendente</h2>
+                        <p>Trata-se do tipo de assédio moral mais comum nas empresas. Esse tipo de assédio toma forma
+                            quando
+                            o assédio é praticado por um trabalhador hierarquicamente superior ao empregado assediado.
+                            <br>
+                            Pode-se visualizar esse tipo de assédio, por exemplo, quando um gerente cobra metas de seus
+                            subordinados e, para isso, os coloca em situações vexatórias, fazendo com que façam
+                            "dancinhas",
+                            paguem "micos", apelidando-os com cognomes pejorativos, etc.
+                        </p>
+
+                    </div>
+
+                    <div class="col">
+                        <h2 class="my-5">Assédio Moral Organizacional</h2>
+                        <p>Nesta hipótese, o empregado sofre violência psicológica da própria empresa pelo ambiente de
+                            trabalho que está inserido. Normalmente ocorre em empresas extremamente competitivas que
+                            estimulam seus funcionários a disputarem entre si, propagando o medo (normalmente por meio
+                            de
+                            ameaças, ainda que de menor grau).
+
+                        </p>
                     </div>
 
                 </div>
 
-                <!-- Controles -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCards"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselCards"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="my-5">Assédio Moral Horizontal</h2>
+                        <p>O assédio moral horizontal ocorre entre funcionários que ocupam a mesma posição hierárquica
+                            dentro da empresa. <br>Pode-se visualizar essa situação quando um funcionário bate suas
+                            metas e
+                            debocha do outro que não as conseguiu cumpri-las. Também é muito comum no dia a dia das
+                            empresas
+                            que cultivam a competitividade entre seus funcionários.</p>
+                        <footer class="footerfonte"><a
+                                href="https://www.jusbrasil.com.br/artigos/tipos-de-assedio-moral-no-trabalho/317924376">Fonte</a>
+                        </footer>
+
+                    </div>
+
+                    <div class="col">
+                        <h2 class="my-5">Assédio Moral Vertical Ascendente</h2>
+                        <p>O assédio vertical ascendente, embora seja extremamente raro, ocorre quando um funcionário
+                            hierarquicamente inferior assedia seu superior. <br>Embora seja mais difícil de visualizar
+                            na
+                            prática, pode-se visualizá-lo em situações em que um funcionário sabe alguma informação
+                            sigilosa
+                            da empresa ou do seu superior hierárquico e a utiliza como meio de chantagem para benefício
+                            próprio (faltar injustificadamente, pedir aumento de salário, etc.).</p>
+
+                    </div>
+                </div>
+
             </div>
-        </div>
 
 
+            <div class="table-container">
+                <table class="table table-hover tabela">
+                    <thead>
+                        <tr>
+                            <th scope="col">Tipo de assédio moral</th>
+                            <th scope="col">Breve descrição</th>
+                            <th scope="col">Exemplos comuns</th>
+                            <th scope="col">Onde ocorrem com mais frequencia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Assédio vertical descendente</th>
+                            <td>Quando uma pessoa em posição hierárquica superior (chefe, professor, responsável, líder)
+                                pratica condutas abusivas contra alguém em posição inferior.</td>
+                            <td>Humilhar subordinados, fazer críticas públicas constantes, impor tarefas degradantes,
+                                ameaçar punições.</td>
+                            <td>Local de trabalho, escola, instituições religiosas, grupos esportivos.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Assédio Moral Organizacional</th>
+                            <td>Quando a própria estrutura, cultura ou gestão de uma instituição favorece ou impõe
+                                práticas
+                                de assédio como forma de controle, pressão ou exclusão.</td>
+                            <td>Metas impossíveis, ambiente competitivo e humilhante, normalização da violência verbal,
+                                ausência de punição a assediadores.</td>
+                            <td>Empresas, escolas, órgãos públicos, times esportivos, grupos comunitários.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Assédio Moral Horizontal</th>
+                            <td>Quando o assédio ocorre entre pessoas do mesmo nível hierárquico ou de relação
+                                equivalente.
+                            </td>
+                            <td>Isolar um colega, fazer piadas ofensivas, espalhar rumores, dificultar o trabalho de
+                                outro
+                                membro do grupo.</td>
+                            <td>Locais de trabalho, escolas, grupos sociais e familiares.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Assédio Moral Vertical Ascendente</th>
+                            <td>Quando o assédio é praticado por uma ou mais pessoas subordinadas contra uma figura de
+                                autoridade.</td>
+                            <td>Boicotar o trabalho do superior, espalhar boatos sobre ele, desrespeitar deliberadamente
+                                ordens ou ridicularizá-lo.</td>
+                            <td>Local de trabalho, ambientes escolares (alunos contra professor), equipes esportivas.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <button type="button" class="btn modalcolor mt-3" data-bs-toggle="modal" data-bs-target="#graficoModal">
+                Ver Gráfico
+            </button>
+        </section>
+
+        <h1 class="my-5"><a href="pages/enfrentando.html"">Aprenda como enfrentar</a></h1>
     </main>
 
 
@@ -219,6 +304,7 @@
                             resiliência. Assim, ao abordar o assédio moral, a obra evidencia não apenas os danos que ele
                             causa, mas também a necessidade de enfrentá-lo por meio do diálogo, do acolhimento e da
                             reconstrução da confiança em si mesmo.</p>
+                        <button onclick="compreaqui()" class="btn modalcolor">Compre aqui!</button>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn modalcolor" data-bs-dismiss="modal">Fechar</button>
@@ -228,107 +314,67 @@
         </div>
 
 
-
-        <!-- modal corrossel -->
-        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+        <div class="modal fade" id="graficoModal" tabindex="-1" aria-labelledby="graficoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Mais sobre "Filhos do Quarto"</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-header text-white">
+                        <h5 class="modal-title" id="graficoModalLabel">Casos de Assédio Moral (%)</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Fechar"></button>
                     </div>
                     <div class="modal-body">
-                        <p>"Já passei por tanta coisa. E, com o tempo, desenvolvi um jogo de cintura. Com esses movimentos que estão acontecendo, começo a questionar algumas coisas pelas quais passei. Não dá para comparar o assédio vivido por uma mulher e o assédio vivido por um homem. Existem vulnerabilidades físicas e históricas. Mas penso que uma situação que era considerada engraçada antigamente, hoje pode ser encarada como assédio. Quando era modelo, sofri muito assédio moral, sexual... Ficava desconfortável na hora, mas saía no humor", relata o artista</p>
-                        <p>Fonte: <a href="https://www.uol.com.br/splash/noticias/2021/11/24/caua-reymond-ja-sofreu-muito-assedio-moral-e-sexual-desconfortavel.htm?cmpid=copiaecola&cmpid=copiaecola">Aqui</a></p>
+                        <!-- Gráfico de barras usando progress bars -->
+                        <div class="mb-3">
+                            <p class="mb-1 fw-bold">Ambiente de Trabalho</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 40%;">40%</div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p class="mb-1 fw-bold">Escola</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 15%;">15%</div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p class="mb-1 fw-bold">Orgãos publicos</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 10%;">10%</div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p class="mb-1 fw-bold">Organizações religiosas</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 5%;">5%</div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p class="mb-1 fw-bold">Locais de Jogos / Entretenimento</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 2%;">2%</div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p class="mb-1 fw-bold">Outros Locais</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 28%;">28%</div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn modalcolor" data-bs-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Vera Fisher</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>“Ele dizia assim: ‘Chora, sua loira burra, sua loira alemã que não sente nada, que não sabe chorar’. Eu falava então: ‘Venha aqui me ensinar como é que faz, qual é o botão que liga'”, contou a atriz.</p>
-                        <p>“Tinha gente me cantando, eu dava umas desculpas que eu não posso falar agora porque são disgusting, mas eu me safava. Aprendi a me safava. Aprendi a me safar rapidinho”, finalizou.</p>
-                        <p>Fonte: <a href="https://istoe.com.br/veja-lista-de-famosos-que-revelaram-ter-sofrido-casos-de-assedio-na-globo">Aqui</a></p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn modalcolor" data-bs-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Carina Pereira"</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>"No decorrer do contrato de trabalho, mais especificamente,nos dois últimos anos a obreira sofria pressões de variadas formas (piadas, assédio(cunho machista e sexista), além de ser alijada das suas funções, com diminuição de matérias, troca de programa, sendo constantemente, censurada, abordada e advertida por seus superiores. No início eram piadinhas maldosas de cunho machista e sexistas dos seus pares, após passou a ser do seu superior. As atitudes da ocasião eram, nitidamente, machistas colocou a figura feminina numa posição em que a beleza física é supervalorizada em detrimento dos tributos intelectuais".</p>
-                        <p>Fonte: <a href="https://natelinha.uol.com.br/televisao/2022/02/02/ex-apresentadora-do-globo-esporte-processa-globo-por-assedio-e-pede-mais-de-meio-milhao-176169.php">Aqui</a></p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn modalcolor" data-bs-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modal4Label">Mais sobre o Card 4</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-                    <div class="modal-body">
-                        Informações detalhadas do Card 4. Ideal para descrições mais longas.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modal5Label">Mais sobre o Card 5</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-                    <div class="modal-body">
-                        Informações extras sobre o Card 5. Use este espaço para detalhes complementares.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modal6Label">Mais sobre o Card 6</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-                    <div class="modal-body">
-                        Informações detalhadas do Card 6. Aqui você pode inserir imagens, listas ou vídeos.
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

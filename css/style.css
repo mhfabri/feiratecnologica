@@ -46,9 +46,11 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .imgcapa{
-    max-width: 50%;
+    max-width: 70%;
     height: auto;
+    box-shadow: 0 40px 60px #693bca80;
 }
 
 h1{
@@ -58,6 +60,8 @@ h1{
 h2{
     color: #ac8eee;
 }
+
+
 
 hr{
     color: #ff00ed;
@@ -88,8 +92,12 @@ footer{
     text-align: center;
     margin: auto;
     margin-top: 20px;
-    transition: 0.8s ease-in-out
+    transition: 0.8s ease-in-out;
+    height: 95%;
+
 }
+
+
 
 .card-body{
     transition: color 0.8s ease-in-out
@@ -131,4 +139,117 @@ footer{
 
 #creditos{
     margin-top: 100px;
+}
+
+.col-animated{
+    background-image: linear-gradient(to bottom, #5100ff, #050614);
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10%;
+    border: 1px solid #ff00ed;
+    box-shadow: 10px #693bca;
+    height: 100%;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.col-animated:hover{
+    transform: translateY(-10px) rotate(10deg) scale(1.105);
+    box-shadow: 0 20px 40px #693bca80;
+}
+
+.row-card{
+    margin-top: 30px;
+}
+
+.col-animatedr:hover{
+    transform: translateY(-10px) rotate(-10deg) scale(1.105)
+}
+
+.motivo, .intuito{
+    color: #996aff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.fonte{
+    color: #ff00ed;
+    text-decoration: none;
+}
+
+.footerfonte a{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #683bcaa4;
+}
+
+.footerfonte{
+    text-align: left;
+}
+
+
+
+.tabela{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 1rem;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    border-radius: 5%;
+}
+
+.tabela th, .tabela td{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 12px 15px;
+    text-align: left;
+    transition: 0.4s ease-in-out;
+}
+
+.table-container{
+    width: 80%;
+    overflow-x: auto; /* Ativa rolagem horizontal se precisar */
+    -webkit-overflow-scrolling: touch; /* Rolagem suave no mobile */
+    margin: auto;
+}
+
+.barcolor{
+    background-color: #ff00ed;
+    color: black;
+    font-weight: bold;
+}
+
+
+section{
+    scroll-margin-top: 100px;
+}
+
+h1 a{
+    color: #693bca;
+}
+
+#comoenfrentar{
+    margin-top: 100px;
+}
+
+.cardenfrentar{
+    background-color: #300888;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ff00ed;
+    padding: 20px;
+    border-radius: 10%;
+    transition: all 0.3s ease;
+}
+
+.cardenfrentar:hover{
+    transform: translateY(-10px) scale(0.95);
+    box-shadow: 0 20px 40px #693bca80;
+}
+
+@media (max-width: 768px) {
+    .imgcapa{
+        max-width: 100%;
+    }
 }

@@ -1864,20 +1864,21 @@ progress {
   --bs-table-bg-type: initial;
   --bs-table-color-state: initial;
   --bs-table-bg-state: initial;
-  --bs-table-color: var(--bs-emphasis-color);
-  --bs-table-bg: var(--bs-body-bg);
+  --bs-table-color: #c5aff3;
+  --bs-table-bg: #300888;
   --bs-table-border-color: var(--bs-border-color);
   --bs-table-accent-bg: transparent;
   --bs-table-striped-color: var(--bs-emphasis-color);
   --bs-table-striped-bg: rgba(var(--bs-emphasis-color-rgb), 0.05);
   --bs-table-active-color: var(--bs-emphasis-color);
   --bs-table-active-bg: rgba(var(--bs-emphasis-color-rgb), 0.1);
-  --bs-table-hover-color: var(--bs-emphasis-color);
+  --bs-table-hover-color: #ff00ed;
   --bs-table-hover-bg: rgba(var(--bs-emphasis-color-rgb), 0.075);
   width: 100%;
   margin-bottom: 1rem;
   vertical-align: top;
   border-color: var(--bs-table-border-color);
+  transition: 0.4s ease-in-out;
 }
 .table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
@@ -4941,7 +4942,7 @@ textarea.form-control-lg {
   --bs-progress-border-radius: var(--bs-border-radius);
   --bs-progress-box-shadow: var(--bs-box-shadow-inset);
   --bs-progress-bar-color: #fff;
-  --bs-progress-bar-bg: #0d6efd;
+  --bs-progress-bar-bg: #855ddd;
   --bs-progress-bar-transition: width 0.6s ease;
   display: flex;
   height: var(--bs-progress-height);
@@ -4959,7 +4960,7 @@ textarea.form-control-lg {
   color: var(--bs-progress-bar-color);
   text-align: center;
   white-space: nowrap;
-  background-color: var(--bs-progress-bar-bg);
+background-image: linear-gradient(to right, #28007e, #855ddd);
   transition: var(--bs-progress-bar-transition);
 }
 @media (prefers-reduced-motion: reduce) {
