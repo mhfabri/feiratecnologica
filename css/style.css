@@ -245,6 +245,7 @@ h1 a{
     padding: 20px;
     border-radius: 25px;
     transition: all 0.3s ease;
+    height: 100%;
 }
 
 .cardenfrentar:hover{
@@ -265,6 +266,15 @@ h1 a{
 #comoenfrentar{
     margin-bottom: 100px;
 }
+
+#consequencias{
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+
+
 @media (max-width: 768px) {
     .imgcapa{
         max-width: 100%;
