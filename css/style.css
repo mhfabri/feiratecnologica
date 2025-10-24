@@ -272,8 +272,106 @@ h1 a{
     margin-top: 100px;
 }
 
+.accordion-item{
+    background-color: #300888;
+    border: 1px solid #ff00ed;
+    color: white;
+}
 
+.accordion-flush{
+    background-color: #300888;
+    border: 1px solid #ff00ed;
+    color: white;
+}
 
+.accordion-button, .accordion-button:not(.collapsed){
+    background-color: #5100ff;
+    color: white;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+.video{
+
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.custom-title {
+    color: var(--vibrant-magenta);
+    font-weight: 700;
+}
+
+/* Estilo da caixa de quiz/resultado (baseado no roxo inclinado) */
+#quiz-area, #result-container {
+    background: linear-gradient(135deg, var(--vibrant-purple) 0%, #4b0082 100%);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(255, 0, 255, 0.5); /* Sombra neon */
+    border: 2px solid var(--vibrant-magenta);
+    color: var(--text-light);
+}
+
+/* Estilo das opções de radio/checkbox */
+.form-check-label {
+    color: var(--text-light);
+    cursor: pointer;
+}
+
+.form-check-input:checked {
+    background-color: var(--vibrant-magenta);
+    border-color: var(--vibrant-magenta);
+}
+
+/* Botão "Continuar" */
+.custom-btn {
+    background-color: var(--vibrant-magenta);
+    border-color: var(--vibrant-magenta);
+    color: var(--text-light);
+    font-weight: bold;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #ff33ff;
+    border-color: #ff33ff;
+    color: var(--dark-background);
+}
+
+/* Progresso */
+.custom-progress-bar {
+    background-color: #4b0082;
+}
+.custom-progress-fill {
+    background-color: var(--vibrant-magenta) !important;
+}
+
+/* Alertas de Devolutiva */
+.alert-success {
+    background-color: rgba(60, 179, 113, 0.8); /* Verde musgo semi-transparente */
+    color: var(--text-light);
+    border: 1px solid limegreen;
+}
+.alert-warning {
+    background-color: rgba(255, 165, 0, 0.8); /* Laranja semi-transparente */
+    color: var(--dark-background);
+    border: 1px solid orange;
+}
+.alert-danger {
+    background-color: rgba(255, 99, 71, 0.8); /* Vermelho semi-transparente */
+    color: var(--text-light);
+    border: 1px solid tomato;
+}
+
+.disclaimer {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px dashed var(--text-light);
+}
 
 @media (max-width: 768px) {
     .imgcapa{
